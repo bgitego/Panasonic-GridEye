@@ -1,0 +1,299 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:grideye
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Panasonic_Grideye-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GridEye U1
+U 1 1 588EB397
+P 5800 4300
+F 0 "U1" H 5800 4300 60  0000 C CNN
+F 1 "GridEye" H 5800 4450 60  0000 C CNN
+F 2 "Panasonic_GridEye:AMG8851" H 6000 4500 60  0001 C CNN
+F 3 "" H 6000 4500 60  0000 C CNN
+	1    5800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 588EB428
+P 4250 3750
+F 0 "R1" V 4330 3750 50  0000 C CNN
+F 1 "10K" V 4250 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4180 3750 50  0001 C CNN
+F 3 "" H 4250 3750 50  0000 C CNN
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 588EB459
+P 5000 3750
+F 0 "R3" V 5080 3750 50  0000 C CNN
+F 1 "10K" V 5000 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4930 3750 50  0001 C CNN
+F 3 "" H 5000 3750 50  0000 C CNN
+	1    5000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 588EB478
+P 4600 3750
+F 0 "R2" V 4680 3750 50  0000 C CNN
+F 1 "10K" V 4600 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4530 3750 50  0001 C CNN
+F 3 "" H 4600 3750 50  0000 C CNN
+	1    4600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 588EB4F3
+P 6700 4550
+F 0 "C2" H 6725 4650 50  0000 L CNN
+F 1 "1uF" H 6725 4450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6738 4400 50  0001 C CNN
+F 3 "" H 6700 4550 50  0000 C CNN
+	1    6700 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 588EB5AB
+P 6950 4850
+F 0 "R4" V 7030 4850 50  0000 C CNN
+F 1 "10" V 6950 4850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6880 4850 50  0001 C CNN
+F 3 "" H 6950 4850 50  0000 C CNN
+	1    6950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR01
+U 1 1 588EB9FB
+P 3600 3990
+F 0 "#PWR01" H 3600 3840 50  0001 C CNN
+F 1 "+3.3V" H 3600 4130 50  0000 C CNN
+F 2 "" H 3600 3990 50  0000 C CNN
+F 3 "" H 3600 3990 50  0000 C CNN
+	1    3600 3990
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 588EBA6C
+P 7300 5450
+F 0 "#PWR02" H 7300 5200 50  0001 C CNN
+F 1 "GND" H 7300 5300 50  0000 C CNN
+F 2 "" H 7300 5450 50  0000 C CNN
+F 3 "" H 7300 5450 50  0000 C CNN
+	1    7300 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 588EBF47
+P 6550 5200
+F 0 "C1" H 6575 5300 50  0000 L CNN
+F 1 "1.5uF" H 6575 5100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6588 5050 50  0001 C CNN
+F 3 "" H 6550 5200 50  0000 C CNN
+	1    6550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 588EC4A4
+P 7300 4400
+F 0 "C3" H 7325 4500 50  0000 L CNN
+F 1 "10uF" H 7325 4300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7338 4250 50  0001 C CNN
+F 3 "" H 7300 4400 50  0000 C CNN
+	1    7300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 588EF5E5
+P 6950 5450
+F 0 "#PWR03" H 6950 5200 50  0001 C CNN
+F 1 "GND" H 6950 5300 50  0000 C CNN
+F 2 "" H 6950 5450 50  0000 C CNN
+F 3 "" H 6950 5450 50  0000 C CNN
+	1    6950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 588EF620
+P 6550 5450
+F 0 "#PWR04" H 6550 5200 50  0001 C CNN
+F 1 "GND" H 6550 5300 50  0000 C CNN
+F 2 "" H 6550 5450 50  0000 C CNN
+F 3 "" H 6550 5450 50  0000 C CNN
+	1    6550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 588EF643
+P 5050 5450
+F 0 "#PWR05" H 5050 5200 50  0001 C CNN
+F 1 "GND" H 5050 5300 50  0000 C CNN
+F 2 "" H 5050 5450 50  0000 C CNN
+F 3 "" H 5050 5450 50  0000 C CNN
+	1    5050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X05 P1
+U 1 1 588F05A1
+P 2700 3600
+F 0 "P1" H 2700 3900 50  0000 C CNN
+F 1 "CONN_01X05" V 2800 3600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 2700 3600 50  0001 C CNN
+F 3 "" H 2700 3600 50  0000 C CNN
+	1    2700 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 3950 5000 3950
+Wire Wire Line
+	5000 3950 5000 3900
+Wire Wire Line
+	5150 4100 4600 4100
+Wire Wire Line
+	4600 4100 4600 3900
+Wire Wire Line
+	5150 4250 4250 4250
+Wire Wire Line
+	4250 4250 4250 3900
+Wire Wire Line
+	7300 3150 7300 4250
+Wire Wire Line
+	7300 3950 6450 3950
+Wire Wire Line
+	7300 4550 7300 5450
+Wire Wire Line
+	6450 4650 6550 4650
+Wire Wire Line
+	6550 4650 6550 5050
+Wire Wire Line
+	6550 5350 6550 5450
+Wire Wire Line
+	6950 5000 6950 5450
+Wire Wire Line
+	7300 4050 6450 4050
+Wire Wire Line
+	2900 3400 7300 3400
+Wire Wire Line
+	4250 3400 4250 3600
+Connection ~ 7300 3400
+Wire Wire Line
+	4600 3400 4600 3600
+Connection ~ 4600 3400
+Wire Wire Line
+	5000 3600 5000 3400
+Connection ~ 5000 3400
+Connection ~ 7300 3950
+Connection ~ 7300 4050
+Wire Wire Line
+	5050 5450 5050 4600
+Wire Wire Line
+	4300 4600 5150 4600
+Connection ~ 4250 3400
+Wire Wire Line
+	2900 3500 3450 3500
+Wire Wire Line
+	3450 3500 3450 4040
+Text GLabel 5000 3950 0    60   Input ~ 0
+SDA
+Text GLabel 4600 4100 0    60   Input ~ 0
+SCL
+Text GLabel 4250 4250 0    60   Input ~ 0
+INT
+Text GLabel 3000 4050 3    60   Input ~ 0
+SDA
+Text GLabel 3150 4050 3    60   Input ~ 0
+SCL
+Text GLabel 3300 4075 3    60   Input ~ 0
+INT
+Wire Wire Line
+	2900 3800 3000 3800
+Wire Wire Line
+	3150 4050 3150 3700
+Wire Wire Line
+	3150 3700 2900 3700
+Wire Wire Line
+	3300 3600 2900 3600
+Wire Wire Line
+	7300 4600 7050 4600
+Wire Wire Line
+	7050 4600 7050 4250
+Wire Wire Line
+	7050 4250 6450 4250
+Connection ~ 7300 4600
+Text GLabel 3600 4050 3    60   Input ~ 0
+VDD
+Wire Wire Line
+	3600 4050 3600 3990
+Text GLabel 7300 3150 1    60   Input ~ 0
+VDD
+Text GLabel 4300 4600 0    60   Input ~ 0
+GND
+Text GLabel 3450 4040 3    60   Input ~ 0
+GND
+Connection ~ 5050 4600
+Wire Wire Line
+	6850 4550 6950 4550
+Wire Wire Line
+	6950 4550 6950 4700
+Wire Wire Line
+	6550 4550 6450 4550
+Wire Wire Line
+	3000 3800 3000 4050
+Wire Wire Line
+	3300 4075 3300 3600
+$EndSCHEMATC
